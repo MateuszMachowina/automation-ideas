@@ -1,4 +1,4 @@
-Sub ExportQueriesToFolderWithFileName()
+Sub ExportQueriesToDesktop()
     Dim qdf As QueryDef
     Dim db As DAO.Database
     Dim folderPath As String
