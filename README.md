@@ -16,7 +16,7 @@ This repository contains my VBA macros and Python scripts for task automation. T
    - Run the macro.
 
 2. **Python Scripts:**
-   - Make sure Python and required libraries are installed (see `requirements.txt`).
+   - Make sure Python and required libraries are installed.
    - Run the script using:
      ```bash
      python script_name.py
