@@ -1,6 +1,6 @@
 # Automation Ideas
 
-This repository contains my VBA macros and Python scripts for task automation. The goal is to speed up processes, save time, and improve work efficiency.
+This repository contains my VBA macros and Python scripts for task automation. The goal is to speed up processes, save time and improve work efficiency.
 
 ## Contents
 
