@@ -4,8 +4,8 @@ This repository contains my VBA macros and Python scripts for task automation. T
 
 ## Contents
 
-- **VBA Macros** – Scripts to automate tasks in Microsoft Office programs like Excel, Access, and Word.
-- **Python Scripts** – Scripts for various automation tasks such as file manipulation, data analysis, and web scraping.
+- **VBA Macros** – Scripts to automate tasks in Microsoft Office programs like Excel, Access and Word.
+- **Python Scripts** – Scripts for various automation tasks such as file manipulation, data analysis and web scraping.
 
 ## How to Use
 
