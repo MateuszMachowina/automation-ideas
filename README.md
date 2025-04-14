@@ -30,12 +30,24 @@ This repository contains VBA macros and Python scripts designed for task automat
 #### **Running the Script:**
 
 1. **Open Command Prompt**
-2. **Navigate to the Script Folder:**
+
+2. **Navigate to the script folder**  
+   *(If your script is on another drive, switch first by typing the drive letter, e.g.:)*
 
    ```bash
-   cd "C:\Path\To\Your\Script"
+   E:
+   cd "Path\To\Your\Script"
    ```
-3. **Run the script:**
+
+3. **Install required libraries**  
+   *(if `requirements.txt` is available)*:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the script**:
+
    ```bash
    python script_name.py
    ```
