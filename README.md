@@ -2,8 +2,6 @@
 
 This repository contains VBA macros and Python scripts designed for task automation. The goal is to speed up processes, save time, and improve work efficiency.
 
----
-
 ## 📂 Contents
 
 - **VBA Macros**  
@@ -11,8 +9,6 @@ This repository contains VBA macros and Python scripts designed for task automat
   
 - **Python Scripts**  
   Automate various tasks such as file manipulation, data analysis, and web scraping.
-
----
 
 ## 📝 How to Use
 
@@ -23,8 +19,6 @@ This repository contains VBA macros and Python scripts designed for task automat
 - Paste or load the macro code into the appropriate module.
 - Run the macro.
 
----
-
 ### 2. **Python Scripts**
 
 #### Before Running a Script:
@@ -32,8 +26,6 @@ This repository contains VBA macros and Python scripts designed for task automat
 - Ensure **Python** is installed on your machine.
 - Install any required libraries (refer to `requirements.txt` if available).
 - Ensure a **`.env`** file is present in the same directory as the script (if environment variables are used).
-
----
 
 #### **Running the Script:**
 
