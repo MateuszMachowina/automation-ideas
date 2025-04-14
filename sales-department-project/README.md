@@ -2,8 +2,6 @@
 
 A growing collection of Excel VBA macros for automating sales workflows, email generation, data imports, invoice generation and more.
 
----
-
 ## 🔧 Features
 
 ### 📜 Automated Invoice PDF Generator
@@ -28,8 +26,6 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
   - Date and time (EU format)
   - Source file name
   - Status (success/failed)
-    
----
 
 ## 🧬 Project Structure
 
@@ -55,8 +51,6 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
   
 ### 📄 Assets
 - **`logo.png`** – The company logo image, placed in the same folder as the workbook, used for invoice branding.
-
----
 
 ## 💡 Requirements
 
