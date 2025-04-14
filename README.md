@@ -5,10 +5,10 @@ This repository contains VBA macros and Python scripts designed for task automat
 ## 📂 Contents
 
 - **VBA Macros**  
-  Automate tasks in Microsoft Office programs like Excel, Access, and Word.
+  Automate tasks in Microsoft Office programs like Excel, Access and Word.
   
 - **Python Scripts**  
-  Automate various tasks such as file manipulation, data analysis, and web scraping.
+  Automate various tasks such as file manipulation, data analysis and web scraping.
 
 ## 📝 How to Use
 
@@ -32,7 +32,7 @@ This repository contains VBA macros and Python scripts designed for task automat
 1. **Open Command Prompt**
 
 2. **Navigate to the script folder**  
-   *(If your script is on another drive, switch first by typing the drive letter, e.g.:)*
+   *(If your script is on another drive, switch first by typing the drive letter)*
 
    ```bash
    E:
