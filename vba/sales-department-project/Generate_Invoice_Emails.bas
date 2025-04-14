@@ -1,4 +1,5 @@
 Attribute VB_Name = "Module1"
+
 Sub Generate_Invoice_Emails()
     Dim ws As Worksheet
     Dim outlookApp As Object
