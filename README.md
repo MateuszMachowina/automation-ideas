@@ -35,7 +35,7 @@ This repository contains VBA macros and Python scripts designed for task automat
 
 ---
 
-#### **Run the Script**
+#### **Running the Script:**
 
 1. **Open Command Prompt**
 2. **Navigate to the Script Folder:**
