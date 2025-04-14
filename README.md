@@ -44,6 +44,6 @@ This repository contains VBA macros and Python scripts designed for task automat
    cd "C:\Path\To\Your\Script"
    ```
 3. **Run the script:**
- ```bash
+   ```bash
    python script_name.py
    ```
