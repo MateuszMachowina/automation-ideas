@@ -2,6 +2,8 @@
 
 A growing collection of Excel VBA macros for automating sales workflows, email generation, data imports and more.
 
+---
+
 ## 🔧 Features
 
 ### 📧 Invoice Email Draft Generator
@@ -24,11 +26,23 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
 
 ---
 
-## 📂 Project Structure
+## 🧬 Project Structure
 
+### 🧠 Modules
 - `Module1`: Email generation and automation
 - `Module2`: Data import and logging
-- `logs` sheet: Tracks macro usage and outcomes
+
+### 📁 Files
+- **`main-table-sales-april-2025.xlsm`**  
+  Primary workbook that contains all macros and serves as the control center.
+  
+- **`secondary-table-sales-march-2025.xlsx`**  
+  Example data source file used for importing past sales into the archive.
+
+### 📑 Sheets
+- **`sales-*month*-*year*`** – Monthly sales data (e.g., `sales-april-2025`)
+- **`archive`** – Central repository where past sales are appended
+- **`logs`** – Action log tracking each macro execution (with timestamp and status)
 
 ---
 
@@ -37,4 +51,3 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
 - Microsoft Excel with macros enabled
 - Microsoft Outlook (for email-related features)
 - Consistent sheet and column formatting for reliable macro behavior
-
