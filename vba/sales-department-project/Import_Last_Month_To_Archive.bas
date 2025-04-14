@@ -1,4 +1,5 @@
 Attribute VB_Name = "Module2"
+
 Sub Import_Last_Month_To_Archive()
     Dim sourceWb As Workbook
     Dim sourceWs As Worksheet
@@ -65,13 +66,13 @@ Sub Import_Last_Month_To_Archive()
 
     ' Copy from A, D, F, G, H, I, J starting from row 2
     For i = 2 To lastRowSource
-        targetWs.Cells(lastRowTarget, 1).Value = sourceWs.Cells(i, 1).Value ' A › A
-        targetWs.Cells(lastRowTarget, 2).Value = sourceWs.Cells(i, 4).Value ' D › B
-        targetWs.Cells(lastRowTarget, 3).Value = sourceWs.Cells(i, 6).Value ' F › C
-        targetWs.Cells(lastRowTarget, 4).Value = sourceWs.Cells(i, 7).Value ' G › D
-        targetWs.Cells(lastRowTarget, 5).Value = sourceWs.Cells(i, 8).Value ' H › E
-        targetWs.Cells(lastRowTarget, 6).Value = sourceWs.Cells(i, 9).Value ' I › F
-        targetWs.Cells(lastRowTarget, 7).Value = sourceWs.Cells(i, 10).Value ' J › G
+        targetWs.Cells(lastRowTarget, 1).Value = sourceWs.Cells(i, 1).Value ' A â€º A
+        targetWs.Cells(lastRowTarget, 2).Value = sourceWs.Cells(i, 4).Value ' D â€º B
+        targetWs.Cells(lastRowTarget, 3).Value = sourceWs.Cells(i, 6).Value ' F â€º C
+        targetWs.Cells(lastRowTarget, 4).Value = sourceWs.Cells(i, 7).Value ' G â€º D
+        targetWs.Cells(lastRowTarget, 5).Value = sourceWs.Cells(i, 8).Value ' H â€º E
+        targetWs.Cells(lastRowTarget, 6).Value = sourceWs.Cells(i, 9).Value ' I â€º F
+        targetWs.Cells(lastRowTarget, 7).Value = sourceWs.Cells(i, 10).Value ' J â€º G
         lastRowTarget = lastRowTarget + 1
     Next i
 
