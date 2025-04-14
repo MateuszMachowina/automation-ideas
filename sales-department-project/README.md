@@ -38,7 +38,7 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
 - `Module2`: Data import and logging
 - `Module3`: Invoice PDF generation (creates invoices based on the current month's sales, stores them in the `Invoices` subfolder)
   
-### 📁 Files
+### 🗃️ Files
 - **`main-table-sales-april-2025.xlsm`**  
   Primary workbook that contains all macros and serves as the control center.
   
