@@ -1,17 +1,22 @@
 # Excel Automation Toolkit (VBA) for Sales Department
 
-A growing collection of Excel VBA macros for automating sales workflows, email generation, data imports and more.
+A growing collection of Excel VBA macros for automating sales workflows, email generation, data imports, invoice generation and more.
 
 ---
 
 ## 🔧 Features
 
-### 📧 Invoice Email Draft Generator
+### 📜 Automated Invoice PDF Generator
+- Effortlessly generates professional invoice PDFs for this month's sales, including customer details, product information and amounts.
+- Exports each invoice as a neatly formatted PDF into the dedicated `Invoices` folder, making them easy to access and manage.
+- Each invoice features the company's logo (stored as `logo.png` in the same folder as the Excel file), customer information and a thank-you note for a personal touch.
 
-- Generates Outlook draft emails based on rows in the `sales-april-2025` sheet.
-- Populates each message with customer details, product info, and invoice amounts.
-- Optionally attaches a PDF matching the invoice reference (must exist in the same folder).
-- Emails are saved as drafts by default (can be modified to display or send directly).
+### 📧 Invoice Email Draft Generator
+- Automatically generates Outlook draft emails using data from the `sales-april-2025` sheet.
+- Populates each email with customer details, product info, invoice reference, and amounts.
+- Attaches a corresponding PDF invoice (saved in the `Invoices` subfolder, based on the invoice reference).
+- Emails are saved as drafts by default (optional configuration to display or send directly).
+- Includes a professional signature, "Mateusz | Matt Games," with a friendly thank-you message for a polished communication.
 
 ### 📥 Archive Importer
 
@@ -23,7 +28,7 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
   - Date and time (EU format)
   - Source file name
   - Status (success/failed)
-
+    
 ---
 
 ## 🧬 Project Structure
@@ -31,7 +36,8 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
 ### 🧠 Modules
 - `Module1`: Email generation and automation
 - `Module2`: Data import and logging
-
+- `Module3`: Invoice PDF generation (creates invoices based on the current month's sales, stores them in the `Invoices` subfolder)
+  
 ### 📁 Files
 - **`main-table-sales-april-2025.xlsm`**  
   Primary workbook that contains all macros and serves as the control center.
@@ -43,6 +49,12 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
 - **`sales-*month*-*year*`** – Monthly sales data (e.g., `sales-april-2025`)
 - **`archive`** – Central repository where past sales are appended
 - **`logs`** – Action log tracking each macro execution (with timestamp and status)
+
+### 📂 Subfolders
+- **`Invoices`** – Subfolder where generated invoice PDFs are stored. The invoices are saved with names corresponding to their invoice reference numbers.
+  
+### 📄 Assets
+- **`logo.png`** – The company logo image, placed in the same folder as the workbook, used for invoice branding.
 
 ---
 
