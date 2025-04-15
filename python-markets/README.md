@@ -6,10 +6,12 @@ For now this repository contains two Python scripts to check exchange rates from
 ## Scripts
 
 1. **`exchange-rates-fixer.py`**  
-   This script uses the [Fixer.io](https://fixer.io/) API to fetch exchange rates.
+   Uses the **Fixer.io API** to check exchange rates.  
+   **Note**: This script only supports EUR as the base currency, and it allows you to check the rate of EUR against any target currency.
 
 2. **`exchange-rates-er.py`**  
-   This script uses the [ExchangeRate-API](https://www.exchangerate-api.com/) to fetch exchange rates.
+   Uses the **ExchangeRate-API** to check exchange rates.  
+   **Note**: This script allows you to check exchange rates for various base currencies (e.g., EUR, USD, etc.) against a target currency.
 
 ## Prerequisites
 
