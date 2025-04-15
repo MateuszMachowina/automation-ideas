@@ -84,19 +84,3 @@ The conversion will be applied, and the updated file will be saved in the same d
 
 - **No exchange rate found**: If there's an issue with fetching the exchange rate, the script will notify you. Ensure the API key is valid and the ExchangeRate-API service is up.
 - **Invalid file format**: The script supports `.xlsx` and `.xlsm` files. If your file is in a different format, please convert it to `.xlsx` or `.xlsm`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
-
----
-
-Thank you for using this currency converter! Feel free to open an issue if you encounter any bugs or have any suggestions for improvement.
