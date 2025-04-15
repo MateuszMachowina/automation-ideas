@@ -18,7 +18,6 @@ For now this repository contains two Python scripts to check exchange rates from
 Before using these scripts, you need to have the following installed:
 
 - Python 3.x
-- pip (Python package installer)
 
 You will also need an API key for both Fixer.io and ExchangeRate-API.
 
