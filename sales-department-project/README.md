@@ -19,12 +19,14 @@ A growing collection of Excel VBA macros for automating sales workflows, email g
 ### 📥 Archive Importer
 
 - Prompts the user to select another Excel file.
-- Lists sheets in that file and lets the user choose one via a numbered menu.
-- Copies selected columns (A, D, F–J) from row 2 onward into the `archive` sheet.
+- Lists sheets in that file and lets the user choose many via a numbered menu.
+- It is advised to choose `2, 1` to first import the `archive` sheet and then the `sales` sheet for a full overview of past periods, including latest sales data.
+- Copies selected columns A–J from row 2 onward into the `archive` sheet.
 - Records each import in the `logs` sheet with:
   - Action name
   - Date and time (EU format)
   - Source file name
+  - Target file name
   - Status (success/failed)
 
 ## 🧬 Project Structure
