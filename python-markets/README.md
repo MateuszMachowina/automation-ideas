@@ -1,7 +1,7 @@
 
 # Python Markets Scripts
 
-For now this repository contains two Python scripts to check exchange rates from different APIs. Both scripts allow users to get the exchange rate between EUR and any other target currency.
+For now this repository contains two Python scripts to check exchange rates from different APIs. 
 
 ## Scripts
 
@@ -71,7 +71,7 @@ To run the scripts, open a terminal or command prompt in the project directory a
 - The script will then display the exchange rate between EUR and the target currency.
 - You can continue checking rates or exit the script by pressing Enter without input.
 
-#### Example usage:
+#### Example usage (fixer.io):
 
 ```bash
 Enter target currency (e.g., PLN), or press Enter to exit: USD
