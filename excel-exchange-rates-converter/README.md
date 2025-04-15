@@ -17,7 +17,7 @@ Before running this script, make sure you have the following:
 
 ### Prerequisites
 
-- **Python 3.x**
+- **Python 3.13**
 - **Libraries**:
   - `requests`
   - `openpyxl`
@@ -34,9 +34,9 @@ ER_API_KEY=your-api-key-here
 
 ## How to Use
 
-1. **Download** the script and other files to you computer.
+1. **Download the necessary files**  
+   - The script, Excel files (found in the `sales-department-example` folder), and the `requirements.txt` file.
 2. **Install required libraries**  
-   *(if `requirements.txt` is available)*:
 
    ```bash
    pip install -r requirements.txt
