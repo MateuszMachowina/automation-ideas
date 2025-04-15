@@ -24,14 +24,6 @@ Before running this script, make sure you have the following:
   - `python-dotenv`
   - `tkinter` (for file selection dialog)
 
-### Installation
-
-You can install the required libraries by running the following command:
-
-```bash
-pip install requests openpyxl python-dotenv
-```
-
 ### API Key
 
 To fetch exchange rates, you will need an API key from [ExchangeRate-API](https://www.exchangerate-api.com/). Once you have the key, store it in a `.env` file in your project directory:
@@ -42,17 +34,22 @@ ER_API_KEY=your-api-key-here
 
 ## How to Use
 
-1. **Clone or download the repository** to your local machine.
-2. **Install the required libraries** as mentioned above.
+1. **Download** the script and other files to you computer.
+2. **Install required libraries**  
+   *(if `requirements.txt` is available)*:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 3. **Create a `.env` file** in your project directory with your `ER_API_KEY`.
 4. **Run the script**:
 
 ```bash
-python currency_converter.py
+excel-exchange-rates-converter.py
 ```
 
 5. **Select the Excel file** when prompted by the file dialog that appears.
-6. **Enter the target currency** (e.g., `PLN`, `USD`, etc.).
+6. **Enter the target currency** (e.g., `PLN`, `SEK`, `GBP`,  etc.).
 7. The script will:
    - Fetch the exchange rate for EUR to the specified target currency.
    - Convert the values in the invoice net and gross columns into the target currency.
