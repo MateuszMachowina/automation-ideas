@@ -5,12 +5,10 @@ This repository contains VBA macros and Python scripts designed for task automat
 ## 📂 Contents
 
 - **VBA Macros**  
-  Automate tasks in Microsoft Office programs like Excel, Access and Word.
   - `export-sql-queries-from-ms-access` - Exports all SQL queries from an Access database to a text file on your desktop.
   - `sales-department-project` - These scripts automate tasks including generating professional invoice PDFs with customer details, creating Outlook email drafts with attached invoices and importing data from external Excel files into an archive, all while logging each action for traceability.
   
 - **Python Scripts**  
-  Automate various tasks such as file manipulation, data analysis and web scraping.
   - `excel-exchange-rates-converter` - Converts EUR invoice amounts in Excel to another currency using live rates and saves the result as a new file.
   - `python-markets` - Checks current exchange rates in real time using an API.
 
