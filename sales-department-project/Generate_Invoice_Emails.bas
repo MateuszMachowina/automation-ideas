@@ -52,7 +52,7 @@ Sub Generate_Invoice_Emails()
                 .Attachments.Add filePath
             End If
 
-            .Save   ' Save email as draft
+            .Save   ' Save email as draft, but you can also change it to .Send or .Display
         End With
     Next i
 
