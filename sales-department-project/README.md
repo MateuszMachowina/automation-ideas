@@ -29,7 +29,23 @@ Collection of Excel VBA macros for automating sales workflows, email generation,
   - Target file name
   - Status (success/failed)
 
-## 🧬 Project Structure
+## 🧬 Related Projects Across Different Technologies
+
+Explore connected projects developed for the Sales and Controlling departments, all working with the same invoice data ecosystem:
+
+- **Sales Department**  
+  ➔ [**Excel Exchange Rates Converter (Python)**](https://github.com/MateuszMachowina/python-apps/tree/main/Excel%20Exchange%20Rates%20Converter)  
+  A Python-based tool that directly processes the `main-table-sales-april-2025.xlsm` file, fetching the latest currency exchange rates via an API and updating amounts accordingly. This ensures accurate international invoicing without manual calculations.
+
+- **Sales Department**  
+  ➔ [**Customer Overdue Payment Notifier (Power Automate)**](https://github.com/MateuszMachowina/power-automate/tree/main/Customer-Overdue-Payment-Notifier)  
+  A Power Automate flow that monitors overdue invoices based on exported `.xlsx` versions of the sales data (macros and Power Automate do not cooperate directly). It automatically sends personalized notification emails to customers, helping improve payment collection processes.
+
+- **Controlling Department (Customers' Side)**  
+  ➔ [**Invoice OCR to Excel (UiPath)**](https://github.com/MateuszMachowina/ui-path/tree/main/Invoice_OCR_to_Excel)  
+  A UiPath automation built for the company's customers. It processes received invoice PDFs—originally generated using the Excel macro toolkit from this project—by extracting data through OCR and transferring it into structured Excel spreadsheets. This streamlines financial reporting and simplifies auditing tasks for finance controllers.
+
+## 🧩 Project Structure
 
 ### 🧠 Modules
 - `Module1`: Email generation and automation
