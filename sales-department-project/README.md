@@ -1,6 +1,6 @@
-# Excel Automation Toolkit for Sales Department
+# ⚙️ Excel Automation Toolkit for Sales Department
 
-A growing collection of Excel VBA macros for automating sales workflows, email generation, data imports, invoice generation and more.
+Collection of Excel VBA macros for automating sales workflows, email generation, data imports, invoice generation and more.
 
 ## 🔧 Features
 
